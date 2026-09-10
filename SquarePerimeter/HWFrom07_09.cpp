@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 int main(void)
     {
 // ---------------- // обьявление переменных   
@@ -7,6 +8,7 @@ int main(void)
     int hun; // сотни
     int ten; // десятки
     int uni; // еденици 
+    int john;
 //------------------ввод переменной n
     std::cout << "Введите число \n";
     std::cin >> n;
@@ -17,5 +19,8 @@ int main(void)
     uni = n % 10;       // еденицы
 //------------------вывод информации про переменные
     std::cout << ten << uni << tho << hun << std::endl;
+    std::cin.get();
+        
+        std::cout << john;
         return 0;
 }
