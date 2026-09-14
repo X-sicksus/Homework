@@ -1,4 +1,5 @@
 //Демшин
+//Ввод библиотек
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -6,8 +7,9 @@ using namespace std;
 int main()
 {
 
-    setlocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, "Russian"); //Ввод кирилици
 
+//Инициализация переменных
 double a = 0.45;
 double b = 3.4;
 double x, Q;
