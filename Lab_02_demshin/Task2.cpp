@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "Russian");
 
-    double price;
+    int price;
 
     cout << "Введите стоимость билета: ";
     cin >> price;
@@ -12,10 +12,10 @@ int main() {
     if (price <= 15000) {
         cout << "Класс обслуживания: эконом" << endl;
     } 
-    else if (price <= 30000) { // Сюда попадут числа от 15000 до 30000
+    else if (price <= 30000) { //числа от 15000 до 30000
         cout << "Класс обслуживания: комфорт" << endl;
     } 
-    else if (price <= 60000) { // Сюда попадут числа от 30000 до 60000
+    else if (price <= 60000) { //числа от 30000 до 60000
         cout << "Класс обслуживания: бизнес" << endl;
     } 
     else { // Если больше 60000

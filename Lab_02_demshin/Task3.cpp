@@ -22,7 +22,7 @@ int main() {
         case 10: cout << "Весы" << endl; break;
         case 11: cout << "Скорпион" << endl; break;
         case 12: cout << "Стрелец" << endl; break;
-        default: cout << "Ошибка! Нужно ввести число от 1 до 12." << endl;
+        default: cout << "Тебе что сказано было?" << endl;
     }
 
     return 0;
