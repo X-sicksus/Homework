@@ -1,15 +1,17 @@
+//Ввод необходимых библиотек
 #include <iostream>
 using namespace std;
 
 int main() {
-    setlocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, "Russian");                   //Ввод кириллицы
 
-    int month;
+    int moth;                                       //Оглавление переменной
+    
+    cout << "Введите номер месяца (1-12): ";        //Вывод фразы
+    cin >> moth;                                    //Ввод номера месяца
 
-    cout << "Введите номер месяца (1-12): ";
-    cin >> month;
-
-    switch (month) {
+    //Проверяет значение переменной и выполняет определённую часть
+    switch (moth) {
         case 1:  cout << "Козерог" << endl; break;
         case 2:  cout << "Водолей" << endl; break;
         case 3:  cout << "Рыбы" << endl; break;
@@ -22,8 +24,9 @@ int main() {
         case 10: cout << "Весы" << endl; break;
         case 11: cout << "Скорпион" << endl; break;
         case 12: cout << "Стрелец" << endl; break;
-        default: cout << "Тебе что сказано было?" << endl;
     }
-
+    if (moth>12) {                                       //Если число больше 12
+        cout << "Тебе что сказано было?" << endl;        //То:
+    }
     return 0;
 }
