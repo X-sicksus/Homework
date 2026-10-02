@@ -4,7 +4,7 @@
 using namespace std;
 int main() {
 
-    setlocale(LC_ALL, "Russian");   //Ввод кирилицы в функцию
+    //setlocale(LC_ALL, "Russian");   //Ввод кирилицы в функцию
 
 double berry, sugar, water;         //Оглавление переменных
 

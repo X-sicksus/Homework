@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    setlocale(LC_ALL, "Russian"); //Ввод кирилиици в функцию
+    //setlocale(LC_ALL, "Russian"); //Ввод кирилиици в функцию
 
     //Объявление переменных
     int hour;

@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    setlocale(LC_ALL, "Russian");                           //Ввод кириллицы
+    //setlocale(LC_ALL, "Russian");                           //Ввод кириллицы
 
     int price;
 
